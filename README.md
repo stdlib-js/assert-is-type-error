@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@esm/index.mjs';
+import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@v0.2.0-esm/index.mjs';
 ```
 
 #### isTypeError( value )
@@ -94,7 +94,7 @@ var bool = isTypeError( new TypeError( 'beep' ) );
 <body>
 <script type="module">
 
-import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@esm/index.mjs';
+import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@v0.2.0-esm/index.mjs';
 
 var bool = isTypeError( new TypeError( 'type error' ) );
 // returns true
