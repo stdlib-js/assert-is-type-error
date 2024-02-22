@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-type-error/tags). For example,
+
+```javascript
 import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@v0.2.1-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ var bool = isTypeError( new TypeError( 'beep' ) );
 <body>
 <script type="module">
 
-import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@v0.2.1-esm/index.mjs';
+import isTypeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-type-error@esm/index.mjs';
 
 var bool = isTypeError( new TypeError( 'type error' ) );
 // returns true
